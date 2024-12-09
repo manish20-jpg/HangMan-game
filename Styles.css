@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    /* height: max-content;
+    width: max-content; */
+}
+html{
+    background-image: linear-gradient(to left, skyblue 0%,  blue 100%);
+}
+
+body{
+    overflow-x: hidden;
+
+}
+span{
+    display: none;
+}
+
+
+
+p{
+    color: white;
+    border-bottom: 4px solid white;
+    height: fit-content;
+    width: fit-content;
+    margin: 20px;
+    width: 25px;
+  display: inherit;
+  height: 22px;
+}
+
+
+#root{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.hangstand{
+  width: 40%;
+  
+}
+
+.button{
+    width: 60%;
+    padding: 4%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   height: 55vh;
+}
+
+button{
+    background-color: lightcyan;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 0px 5px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 600px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.fill-Blanks{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.availablebtn{
+    background-color: green;
+    color: white;
+}
+
+.notavailablebtn{
+    background-color: red;
+    color: white;
+}
+
+#class1{
+background: whitesmoke;
+height: 10px;
+width: 29%;
+position: absolute;
+bottom: 18%;
+left: 5%;
+}
+
+#class2{
+background: whitesmoke;
+height: 60%;
+width: 20px;
+position: absolute;
+top: 21%;
+left: 12%;
+}
+
+#class3{
+background: whitesmoke;
+height: 12px;
+width: 20%;
+position: absolute;
+top: 20%;
+left: 5%;
+}
+
+#class4{
+background: whitesmoke;
+height: 15vh;
+width: 8px;
+position: absolute;
+left: 23%;
+bottom: 65%;
+}
+
+#class5{
+    background: whitesmoke;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 22%;
+    top: 34%;
+}
+
+#class6{
+    background: whitesmoke;
+    height: 140px;
+    width: 65px;
+    border-radius: 30%;
+    position: absolute;
+    left: 22%;
+    bottom: 37%;
+}
+
+ #class7{
+    background: whitesmoke;
+    height: 100px;
+    width: 20px;
+    border-radius: 30%;
+    position: absolute;
+    left: 21%;
+    bottom: 25%;
+    transform: rotate(30deg);
+}
+
+
+#class8{
+    background: whitesmoke;
+    height: 100px;
+    width: 20px;
+    border-radius: 30%;
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+    transform: rotate(-30deg);
+}
+
+#class9{
+    background: whitesmoke;
+    height: 90px;
+    width: 20px;
+    border-radius: 20%;
+    position: absolute;
+    left: 27%;
+    bottom: 49%;
+    transform: rotate(38deg);
+}
+
+#class10{
+    background: whitesmoke;
+    height: 90px;
+    width: 20px;
+    border-radius: 20%;
+    position: absolute;
+    left: 26%;
+    bottom: 27%;
+    transform: rotate(-37deg);
+} 
+
+.displayNone{
+    display: none;
+}
+
+.centre{
+    color: aliceblue;
+   font-size: 30px;
+   font-family:'Times New Roman', Times, serif;
+   letter-spacing: 5px;
+   padding: auto;
+   text-decoration: underline;
+   text-shadow: 1px 10px 30px black;
+}
